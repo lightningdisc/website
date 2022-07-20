@@ -12,5 +12,5 @@ app.get("/", (req, res) => {
 });
 
 app.get("/invite", (req, res) => {
-  res.sendFile(__dirname + "/invite/html");
+  res.sendFile(__dirname + "/invite.html");
 });
