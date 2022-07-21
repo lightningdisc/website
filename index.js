@@ -14,3 +14,11 @@ app.get("/", (req, res) => {
 app.get("/invite", (req, res) => {
   res.sendFile(__dirname + "/invite.html");
 });
+
+app.get("/tos", (req, res) => {
+  res.sendFile(__dirname + "/tos.html");
+});
+
+app.get("/policy", (req, res) => {
+  res.sendFile(__dirname + "/policy.html");
+});
